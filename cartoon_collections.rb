@@ -22,4 +22,5 @@ def find_the_cheese(array)
    array.each do |i|
      array.include?(new)
    end
+   new
 end
