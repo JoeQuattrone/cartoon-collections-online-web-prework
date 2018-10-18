@@ -21,4 +21,5 @@ def find_the_cheese(array)
   new = cheese_types.join(", ")
    array.each do |i|
      array.include(new)
+   end
 end
